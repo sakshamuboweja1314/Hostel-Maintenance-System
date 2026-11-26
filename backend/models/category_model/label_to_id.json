@@ -1,0 +1,8 @@
+{
+  "Water and Plumbing": 0,
+  "Electrical": 1,
+  "Internet and Wi-Fi": 2,
+  "Cleanliness and Sanitation": 3,
+  "Furniture and Civil Maintenance": 4,
+  "Other": 5
+}

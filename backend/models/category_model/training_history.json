@@ -1,0 +1,35 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "task": "category_classification",
+  "epochs": 3,
+  "batch_size": 16,
+  "learning_rate": 4e-05,
+  "total_time_seconds": 374.0696966648102,
+  "best_val_f1": 0.9944429008057795,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4069540568117826,
+      "val_loss": 0.653060590227445,
+      "val_acc": 0.9222222222222223,
+      "val_f1": 0.9220700502169484,
+      "time_sec": 148.46936345100403
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.336191732928438,
+      "val_loss": 0.12479280804594357,
+      "val_acc": 0.9888888888888889,
+      "val_f1": 0.9888873452502238,
+      "time_sec": 114.7304220199585
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.08363467834468158,
+      "val_loss": 0.05757051489005486,
+      "val_acc": 0.9944444444444445,
+      "val_f1": 0.9944429008057795,
+      "time_sec": 110.1839349269867
+    }
+  ]
+}

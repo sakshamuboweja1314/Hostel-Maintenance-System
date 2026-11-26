@@ -1,0 +1,35 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "task": "urgency_classification",
+  "epochs": 3,
+  "batch_size": 16,
+  "learning_rate": 4e-05,
+  "total_time_seconds": 344.67401027679443,
+  "best_val_f1": 0.9831962397179789,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1669898842865567,
+      "val_loss": 0.6585476249456406,
+      "val_acc": 0.8222222222222222,
+      "val_f1": 0.8202853333412874,
+      "time_sec": 112.93161106109619
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.36432030164408236,
+      "val_loss": 0.19217736956973872,
+      "val_acc": 0.9555555555555556,
+      "val_f1": 0.9551907620047425,
+      "time_sec": 111.94058585166931
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.08585234372964445,
+      "val_loss": 0.08390058763325214,
+      "val_acc": 0.9833333333333333,
+      "val_f1": 0.9831962397179789,
+      "time_sec": 112.18116188049316
+    }
+  ]
+}

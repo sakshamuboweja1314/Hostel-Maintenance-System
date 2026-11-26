@@ -1,0 +1,213 @@
+{
+  "timestamp": "2026-11-26 11:40:00",
+  "category_model": {
+    "task_name": "Category Classification",
+    "model_architecture": "DistilBertForSequenceClassification (distilbert-base-uncased)",
+    "num_classes": 6,
+    "classes": [
+      "Water and Plumbing",
+      "Electrical",
+      "Internet and Wi-Fi",
+      "Cleanliness and Sanitation",
+      "Furniture and Civil Maintenance",
+      "Other"
+    ],
+    "test_sample_count": 180,
+    "accuracy": 0.9388888888888889,
+    "precision_macro": 0.9399394388827091,
+    "precision_weighted": 0.9399394388827093,
+    "recall_macro": 0.938888888888889,
+    "recall_weighted": 0.9388888888888889,
+    "f1_macro": 0.9390538985392921,
+    "f1_weighted": 0.9390538985392919,
+    "confusion_matrix": [
+      [
+        28,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        29,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        29,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        27,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        28,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        28
+      ]
+    ],
+    "classification_report": {
+      "Water and Plumbing": {
+        "precision": 0.9032258064516129,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9180327868852459,
+        "support": 30.0
+      },
+      "Electrical": {
+        "precision": 0.9354838709677419,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.9508196721311475,
+        "support": 30.0
+      },
+      "Internet and Wi-Fi": {
+        "precision": 0.9666666666666667,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.9666666666666667,
+        "support": 30.0
+      },
+      "Cleanliness and Sanitation": {
+        "precision": 0.9310344827586207,
+        "recall": 0.9,
+        "f1-score": 0.9152542372881356,
+        "support": 30.0
+      },
+      "Furniture and Civil Maintenance": {
+        "precision": 1.0,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9655172413793104,
+        "support": 30.0
+      },
+      "Other": {
+        "precision": 0.9032258064516129,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9180327868852459,
+        "support": 30.0
+      },
+      "accuracy": 0.9388888888888889,
+      "macro avg": {
+        "precision": 0.9399394388827091,
+        "recall": 0.938888888888889,
+        "f1-score": 0.9390538985392921,
+        "support": 180.0
+      },
+      "weighted avg": {
+        "precision": 0.9399394388827093,
+        "recall": 0.9388888888888889,
+        "f1-score": 0.9390538985392919,
+        "support": 180.0
+      }
+    },
+    "avg_inference_time_ms": 44.23,
+    "device": "cpu"
+  },
+  "urgency_model": {
+    "task_name": "Urgency Classification",
+    "model_architecture": "DistilBertForSequenceClassification (distilbert-base-uncased)",
+    "num_classes": 4,
+    "classes": [
+      "Critical",
+      "High",
+      "Medium",
+      "Low"
+    ],
+    "test_sample_count": 180,
+    "accuracy": 0.9111111111111111,
+    "precision_macro": 0.9144781574026857,
+    "precision_weighted": 0.9110374525468864,
+    "recall_macro": 0.9166666666666667,
+    "recall_weighted": 0.9111111111111111,
+    "f1_macro": 0.9155091110826612,
+    "f1_weighted": 0.9110158039232421,
+    "confusion_matrix": [
+      [
+        34,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        48,
+        4,
+        0
+      ],
+      [
+        0,
+        3,
+        48,
+        3
+      ],
+      [
+        0,
+        0,
+        2,
+        34
+      ]
+    ],
+    "classification_report": {
+      "Critical": {
+        "precision": 0.9444444444444444,
+        "recall": 0.9444444444444444,
+        "f1-score": 0.9444444444444444,
+        "support": 36.0
+      },
+      "High": {
+        "precision": 0.9056603773584906,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.897196261682243,
+        "support": 54.0
+      },
+      "Medium": {
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.8888888888888888,
+        "support": 54.0
+      },
+      "Low": {
+        "precision": 0.918918918918919,
+        "recall": 0.9444444444444444,
+        "f1-score": 0.9315068493150684,
+        "support": 36.0
+      },
+      "accuracy": 0.9111111111111111,
+      "macro avg": {
+        "precision": 0.9144781574026857,
+        "recall": 0.9166666666666667,
+        "f1-score": 0.9155091110826612,
+        "support": 180.0
+      },
+      "weighted avg": {
+        "precision": 0.9110374525468864,
+        "recall": 0.9111111111111111,
+        "f1-score": 0.9110158039232421,
+        "support": 180.0
+      }
+    },
+    "avg_inference_time_ms": 43.77,
+    "device": "cpu"
+  }
+}
